@@ -39,7 +39,7 @@ body {
 .img-header {
   width: auto;
   height: 360px;
-  background: url("../img/businesswoman.jpg") top 5% center no-repeat;
+  background: url("../img/businesswoman.jpg") left 5% top 5% no-repeat;
   background-size: cover;  
 }
 
