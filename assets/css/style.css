@@ -1,0 +1,156 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+  margin-bottom: 40px; 
+  text-align: center;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.header, .section, .footer {
+  width: 60vw;
+}
+
+.logo {
+  height: 55px;
+  margin-bottom: 20px;
+}
+
+.img-header {
+  width: auto;
+  height: 360px;
+  background: url("../img/businesswoman.jpg") top 5% center no-repeat;
+  background-size: cover;  
+}
+
+.section {
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10vw 30px 10vw;
+}
+
+.highlight-text-blue {
+  color: #342a69;
+  font-weight: bold;
+}
+
+.highlight-text-orange {
+  color: #fa9963;
+  font-weight: bold;
+}
+
+.btn-app-store {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.btn-app-store img {
+  height: 57px;
+  margin: 0 5px 0 5px;
+}
+
+.video {
+  width: 360px;
+  height: 200px;
+  padding: 5px;
+  margin: 20px 0 30px 0;
+  border-radius: 30px;
+  align-self: center;
+  background-color: #000;
+}
+
+.video iframe {
+  width: auto;
+  height: 100%;
+}
+
+.video-link {
+  display: none;
+}
+
+.font-size-big {
+  font-size: 1.15em;
+  line-height: 1.3; 
+}
+
+.site {
+  text-decoration: none;
+  color: #5871f2;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.social-media img {
+  height: 35px;
+  margin: 0 7px 0 7px;
+}
+
+.font-size-small {
+  font-size: 0.75em;
+}
+
+@media screen and (max-width: 640px) {
+
+  .header, .section, .footer {
+    width: 80vw;
+  }
+
+  .img-header {
+    height: 260px;
+  }
+
+  .hide-device {
+    display: none;
+  }
+
+  .btn-app-store {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .video-link {
+    display: block;
+    background-color: #342a69;
+    text-decoration: none;
+    font-size: 0.85em;
+    color: #fff;
+    padding: 15px 30px 15px 30px;
+    margin: 20px 0 30px 0;
+    border-radius: 50px;
+  }
+}
